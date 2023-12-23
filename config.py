@@ -9,9 +9,6 @@ with open('data/abi/erc20_abi.json') as file:
 with open("accounts.txt", "r") as file:
     ACCOUNTS = [row.strip() for row in file]
 
-with open('data/abi/scroll/weth.json') as file:
-    WETH_ABI = json.load(file)
-
 with open("data/abi/nft-origins/abi.json", "r") as file:
     NFT_ORIGINS_ABI = json.load(file)
 
