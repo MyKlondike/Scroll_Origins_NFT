@@ -9,7 +9,7 @@ from config import ACCOUNTS
 from settings import (CHECK_WALLET,
     RANDOM_WALLET,
     SLEEP_FROM,
-    SLEEP_TO,)
+    SLEEP_TO,REMOVE_WALLET)
 from modules_settings import *
 from utils.helpers import remove_wallet
 from utils.sleeping import sleep
