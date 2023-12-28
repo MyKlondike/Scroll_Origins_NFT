@@ -14,11 +14,11 @@ RANDOM_WALLET = False  # True/False
 REMOVE_WALLET = False # True/False
 
 SLEEP_FROM = 1 # Second
-SLEEP_TO = 1  # Second
+SLEEP_TO = 6 # Second
 
 # GWEI CONTROL MODE
 CHECK_GWEI = True  # True/False
-MAX_GWEI = 100
+MAX_GWEI = 30
 
 # RETRY MODE
 RETRY_COUNT = 0
